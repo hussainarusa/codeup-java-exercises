@@ -23,6 +23,7 @@ public class Square extends Rectangle {
 
 
     public Square(int i) {
+        super();
 
     }
 

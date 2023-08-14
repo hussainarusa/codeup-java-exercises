@@ -39,6 +39,10 @@ public class Rectangle implements Measurable {
 
     }
 
+    public Rectangle() {
+
+    }
+
     @Override
     public double getPerimeter() {
         int width = 0;
