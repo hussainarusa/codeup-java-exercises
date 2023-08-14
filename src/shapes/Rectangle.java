@@ -35,6 +35,10 @@ import static com.sun.tools.classfile.Module_attribute.RequiresEntry.length;
 public class Rectangle implements Measurable {
 
 
+    public Rectangle(int i, int i1) {
+
+    }
+
     @Override
     public double getPerimeter() {
         int width = 0;

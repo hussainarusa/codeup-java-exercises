@@ -22,6 +22,10 @@ import static com.sun.tools.classfile.Module_attribute.RequiresEntry.length;
 public class Square extends Rectangle {
 
 
+    public Square(int i) {
+
+    }
+
     @Override
     public double getArea() {
         return length * length;

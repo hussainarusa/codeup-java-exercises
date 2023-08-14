@@ -69,3 +69,50 @@ public class Input {
     }
 }
 
+
+
+//public class Input {
+//    private Scanner scanner;
+//
+//    public Input() {
+//        scanner = new Scanner(System.in);
+//    }
+//
+//    public String getString() {
+//        System.out.print("Enter a value: ");
+//        return scanner.nextLine();
+//    }
+//
+//    public int getInt() {
+//        while (true) {
+//            try {
+//                String input = getString();
+//                return Integer.valueOf(input);
+//            } catch (NumberFormatException e) {
+//                System.out.println("Invalid input. Please enter an integer.");
+//            }
+//        }
+//    }
+//
+//    public double getDouble() {
+//        while (true) {
+//            try {
+//                String input = getString();
+//                return Double.valueOf(input);
+//            } catch (NumberFormatException e) {
+//                System.out.println("Invalid input. Please enter a double.");
+//            }
+//        }
+//    }
+//
+//    public static void main(String[] args) {
+//        Input input = new Input();
+//
+//        int intValue = input.getInt();
+//        System.out.println("You entered an integer: " + intValue);
+//
+//        double doubleValue = input.getDouble();
+//        System.out.println("You entered a double: " + doubleValue);
+//    }
+//}
+
