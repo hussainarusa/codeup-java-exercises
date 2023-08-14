@@ -32,7 +32,7 @@ public class ControlFlowExercises {
 //      do {
 //          System.out.println(count);
 //          count *= count;
-//      }while (count <= 1000000);
+//      } while (count <= 1000000);
 
 ////        Refactor the previous two exercises to use a for loop instead.
 //        for (int count = 100; count >= -10; count -= 5) {
@@ -77,46 +77,46 @@ public class ControlFlowExercises {
 
 //        Display a table of powers.
 
-//        System.out.printf("enter an integer");
-//        int userInt = scanner.nextInt();
-////        Display a table of squares and cubes from 1 to the value entered.
-//        // loop through value entered
-//        // display each number squared
-//        // display each number cubed
-//        System.out.println("Number\tSquare\tCube");
-//        System.out.println("------\t------\t----");
-//
-//        for (int i = 1; i <= userInt; i++) {
-//            int square = i * i;
-//            int cube = i * i * i;
-//            System.out.printf("   %d\t   %d\t   %d%n", i, square, cube);
-//        }
-//
-//        scanner.close();
+        System.out.printf("enter an integer");
+        int userInt = scanner.nextInt();
+//        Display a table of squares and cubes from 1 to the value entered.
+        // loop through value entered
+        // display each number squared
+        // display each number cubed
+        System.out.println("Number\tSquare\tCube");
+        System.out.println("------\t------\t----");
+
+        for (int i = 1; i <= userInt; i++) {
+            int square = i * i;
+            int cube = i * i * i;
+            System.out.printf("   %d\t   %d\t   %d%n", i, square, cube);
+        }
+
+
 
 
 //        Convert given number grades into letter grades.
 
-        System.out.println("Enter your Numerical Grade");
-
-        int numericalGrade = scanner.nextInt();
-
-        char letterGrade= 0;
-
-        if ( numericalGrade >= 88 && numericalGrade <= 100){
-            letterGrade = 'A';
-        } else if (numericalGrade >= 80 && numericalGrade <= 87) {
-            letterGrade = 'B';
-        }else if (numericalGrade >= 67 && numericalGrade <= 79) {
-            letterGrade = 'C';
-        }else if (numericalGrade >= 60 && numericalGrade <= 66) {
-            letterGrade = 'D';
-        }else if (numericalGrade >= 0 && numericalGrade <= 59) {
-            letterGrade = 'F';
-        }
-
-        System.out.println("Your grade is an " + letterGrade+ "!");
-
+//        System.out.println("Enter your Numerical Grade");
+//
+//        int numericalGrade = scanner.nextInt();
+//
+//        char letterGrade= 0;
+//
+//        if ( numericalGrade >= 88 && numericalGrade <= 100){
+//            letterGrade = 'A';
+//        } else if (numericalGrade >= 80 && numericalGrade <= 87) {
+//            letterGrade = 'B';
+//        }else if (numericalGrade >= 67 && numericalGrade <= 79) {
+//            letterGrade = 'C';
+//        }else if (numericalGrade >= 60 && numericalGrade <= 66) {
+//            letterGrade = 'D';
+//        }else if (numericalGrade >= 0 && numericalGrade <= 59) {
+//            letterGrade = 'F';
+//        }
+//
+//        System.out.println("Your grade is an " + letterGrade+ "!");
+//
     }
 }
 
